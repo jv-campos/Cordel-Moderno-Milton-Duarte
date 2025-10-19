@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Sriracha&display=swap');
+
+
+
+:root{
+    --font1: Verdada, Geneva, Tahoma, sans-serif;
+    --fonte-BBh:"BBH Sans Hegarty", sans-serif;
+    --fonte-sriracha: "Sriracha", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    font-family: var(--font1);
+    min-width: 100vh;
+    min-width: 100vw;
+    background-color: darkgrey;
+}
+header{
+    font-size: 3.5vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte-BBh);
+    font-size: 10vw;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-size: 3.9vw;
+    font-family: var(--fonte-sriracha);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 8px;
+    line-height: 1.9em;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-attachment: fixed;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.imagem p{
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.753);
+    text-shadow: 2px 2px 2px black ;
+}
+
+#imagem01{
+    background-image: url(imagens/background-girasol.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#imagem02{
+    background-image: url(imagens/background-folha.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
